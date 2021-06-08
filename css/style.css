@@ -3434,6 +3434,8 @@ body, dd, dl, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, ol, p, sele
 }
 
 img {
+	width: 140px;
+	border-radius: 37px;
 	border: 0;
 	vertical-align: middle
 }
@@ -3458,15 +3460,15 @@ a {
 
 body {
 		height: 100%;
-		background-color: #ffffff;
-		background-image: url("../img/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../img/bg.jpg");
+		background-color: #000000;
+/* 		background-image: url("../img/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../img/bg.jpg");
 		background-image: url("../img/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../img/bg.jpg");
 		background-image: url("../img/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../img/bg.jpg");
 		background-image: url("../img/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../img/bg.jpg");
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed;
+		background-attachment: fixed,			fixed,				fixed; */
 }
 
 #wrap {
@@ -3493,7 +3495,8 @@ body {
 }
 
 #logo img {
-	width: 141px
+	width: 141px;
+	border-radius: 37px;
 }
 
 #logo h1 {
@@ -3531,7 +3534,7 @@ ul li a strong {
 	text-align: center;
 	text-shadow: 0 0 10px #111;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 20px;
 	font-family: MyriadSetPro-Thin;
 	line-height: 32px
 }
